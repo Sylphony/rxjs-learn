@@ -15,8 +15,8 @@
     "babel-preset-env": "^1.6.0"
   },
   "scripts": {
-    "build": "npm run copy && ./node_modules/.bin/babel src --out-dir dist",
-    "build:watch": "npm run copy && ./node_modules/.bin/babel src --out-dir dist --watch",
+    "build": "npm run copy && webpack",
+    "build:watch": "npm run copy && webpack --watch",
     "copy": "robocopy \"src\" \"dist\" \"*.html\" \"/s\""
   }
 }
