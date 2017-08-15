@@ -7,7 +7,8 @@ module.exports = () => {
     entry: {
       "hello-world": "./hello-world",
       "events": "./events",
-      "interval": "./interval"
+      "interval": "./interval",
+      "who-to-follow": "./who-to-follow"
     },
 
     output: {
