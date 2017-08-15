@@ -17,6 +17,6 @@
   "scripts": {
     "build": "npm run copy && webpack",
     "build:watch": "npm run copy && webpack --watch",
-    "copy": "robocopy \"src\" \"dist\" \"*.html\" \"/s\""
+    "copy": "robocopy \"src\" \"dist\" \"*.html\" \"/s\" || true"
   }
 }
